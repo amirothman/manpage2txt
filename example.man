@@ -1,0 +1,67 @@
+.TH COFFEE 1 "23 March 94"
+.SH NAME
+coffee - Control remote coffee machine
+.SH SYNOPSIS
+ coffee [ -h | -b ] [ -t type ]
+amount
+.SH DESCRIPTION
+coffee queues a request to the remote
+coffee machine at the device /dev/cf0.
+The required amount argument specifies
+the number of cups, generally between 0 and
+12 on ISO standard coffee machines.
+.SS Options
+.TP
+-h
+Brew hot coffee. Cold is the default.
+.TP
+-b
+Burn coffee. Especially useful when executing
+coffee on behalf of your boss.
+.TP
+-t type
+Specify the type of coffee to brew, where
+type is one of columbian,
+regular, or decaf.
+.SH FILES
+.TP
+/dev/cf0
+The remote coffee machine device
+.SH "SEE ALSO"
+milk(5), sugar(5)
+.SH BUGS
+May require human intervention if coffee
+supply is exhaustedOFFEE 1 "23 March 94"
+.SH NAME
+coffee \- Control remote coffee machine
+.SH SYNOPSIS
+coffee [ -h | -b ] [ -t type ]
+amount
+.SH DESCRIPTION
+coffee queues a request to the remote
+coffee machine at the device /dev/cf0.
+The required amount argument specifies
+the number of cups, generally between 0 and
+12 on ISO standard coffee machines.
+.SS Options
+.TP
+-h
+Brew hot coffee. Cold is the default.
+.TP
+-b
+Burn coffee. Especially useful when executing
+coffee on behalf of your boss.
+.TP
+-t type
+Specify the type of coffee to brew, where
+type is one of columbian,
+regular, or decaf.
+.SH FILES
+.TP
+/dev/cf0
+The remote coffee machine device
+.SH "SEE ALSO"
+milk(5), sugar(5)
+.SH BUGS
+May require human intervention if coffee
+supply is exhausted.
