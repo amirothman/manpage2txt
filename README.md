@@ -6,10 +6,10 @@ I feel there is an aesthetic value to how manpages look. Maybe there already is 
 
 ## Usage
 
-  sh manpage2txt.sh SOURCEFILE
+    sh manpage2txt.sh SOURCEFILE
 
 This will produce a file named SOURCEFILE.txt
 
 ## References
 
-[link](http://www.linuxjournal.com/article/1158?page=0,0)
+[http://www.linuxjournal.com/article/1158?page=0,0](http://www.linuxjournal.com/article/1158?page=0,0)
